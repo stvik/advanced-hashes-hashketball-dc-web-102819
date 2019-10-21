@@ -120,8 +120,6 @@ end
 def num_points_scored(name)
   stats = game_hash
   stats.each do |team, value|
-    if value[:players].include?(name)
-      return name
     end
   end
 end
