@@ -117,7 +117,10 @@ def game_hash()
   hash
 end
 
-def num_points_scored
+def num_points_scored(name)
+  stats = game_hash
+  stats
+end
 
 
 
