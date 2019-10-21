@@ -161,7 +161,7 @@ def player_stats(name)
   game_hash.each do |key, value|
     value[:players].each do |player|
       if player[:player_name] == name
-        new_hash = player[1...8]
+        new_hash = player.slice
         return new_hash
       end
     end
