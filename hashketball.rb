@@ -138,7 +138,7 @@ def team_colors(team_name)
   stats = game_hash
   if stats[:home][:team_name] == team_name
     return stats[:home][:colors]
-  else
+  elsif stats[:away][:team_name] == team_name
     return stats[:away][:colors]
   #stats.each do |team, value|
   #  if team[:team_name] == team_name
