@@ -150,6 +150,7 @@ def team_names()
   stats.each do |key|
     teams.push(key[:team_name])
   end
+  teams
 end
 
 
