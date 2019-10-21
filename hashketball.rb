@@ -134,7 +134,7 @@ def shoe_size(name)
   stats = game_hash
   stats.each do |key, value|
     if key[:player][:player_name] == name
-      return value[:player][:shoe_size]
+      puts value[:player][:shoe_size]
     end
   end
 end
