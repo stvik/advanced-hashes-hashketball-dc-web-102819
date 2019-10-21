@@ -181,7 +181,16 @@ def player_stats(name)
 end
 
 def big_shoe_rebounds()
-  
+  players = []
+  game_hash.each do |key, value|
+    if value[:team_name] == team_name
+      value[:players].each do |player|
+       jersey.push(player[:number])
+      end
+    end
+  end
+  jersey
+ end
 
 
 
