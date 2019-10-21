@@ -125,7 +125,6 @@ def num_points_scored(name)
           puts name
         end
       end
-    end
   end
 end
 
