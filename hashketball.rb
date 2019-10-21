@@ -135,6 +135,7 @@ def shoe_size(name)
   stats.each do |key, value|
     if value[:player][:player_name] == name
       return value[:player][:shoe_size]
+    end
   end
 end
 
