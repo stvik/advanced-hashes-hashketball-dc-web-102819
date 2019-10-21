@@ -146,7 +146,7 @@ def team_names()
   stats = game_hash
   teams = []
   stats.each do |key,value|
-    teams.push(value[:team_name])
+    teams.push(stats[value][:team_name])
   end
   teams
 end
