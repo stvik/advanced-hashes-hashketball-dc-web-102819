@@ -119,7 +119,8 @@ end
 
 def num_points_scored(name)
   stats = game_hash
-  stats
+  stats.each do |key, value|
+    
 end
 
 
