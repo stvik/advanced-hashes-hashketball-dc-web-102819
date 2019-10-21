@@ -156,6 +156,18 @@ def team_names()
   teams
 end
 
+def player_numbers(team_name)
+  jersey = []
+  game_hash.each do |key, value|
+    if value[:team_name] == team_name
+      value[:players].each do |player|
+       jersey.push(player[:number])
+      end
+    end
+  end
+  jersey
+ end
+
 def player_stats(name)
   new_hash = {}
   game_hash.each do |key, value|
