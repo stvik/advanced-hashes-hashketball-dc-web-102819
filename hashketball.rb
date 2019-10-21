@@ -134,7 +134,7 @@ def shoe_size(name)
   stats = game_hash
   stats.each do |key, value|
     value.each do |info, moreinfo|
-      puts moreinfo
+      puts info
   end
 end
 
