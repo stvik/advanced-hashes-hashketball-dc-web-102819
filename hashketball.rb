@@ -130,6 +130,19 @@ def num_points_scored(name)
   end
 end
 
+def shoe_size(name)
+  stats = game_hash
+end
+
+def team_colors(team_name)
+  stats = game_hash
+  stats.each do |team, value|
+    if value[:team_name] == team_name
+      return team[:colors]
+    end
+  end
+end
+
 
 
 
