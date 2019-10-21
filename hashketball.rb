@@ -10,7 +10,7 @@ def game_hash()
           shoe: 16,
           points: 22,
           rebounds:12,
-          assits: 12,
+          assists: 12,
           steals: 3,
           blocks: 1,
           slam_dunks: 1
@@ -20,7 +20,7 @@ def game_hash()
           shoe: 14,
           points: 12,
           rebounds:12,
-          assits: 12,
+          assists: 12,
           steals: 12,
           blocks: 12,
           slam_dunks: 7
@@ -30,7 +30,7 @@ def game_hash()
           shoe: 17,
           points: 17,
           rebounds:19,
-          assits: 10,
+          assists: 10,
           steals: 3,
           blocks: 1,
           slam_dunks: 15
@@ -40,7 +40,7 @@ def game_hash()
           shoe: 19,
           points: 26,
           rebounds:11,
-          assits: 6,
+          assists: 6,
           steals: 3,
           blocks: 8,
           slam_dunks: 5
@@ -50,7 +50,7 @@ def game_hash()
           shoe: 15,
           points: 19,
           rebounds:2,
-          assits: 2,
+          assists: 2,
           steals: 4,
           blocks: 11,
           slam_dunks: 1
@@ -66,7 +66,7 @@ def game_hash()
           shoe: 18,
           points: 10,
           rebounds:1,
-          assits: 1,
+          assists: 1,
           steals: 2,
           blocks: 7,
           slam_dunks: 2
@@ -76,7 +76,7 @@ def game_hash()
           shoe: 16,
           points: 12,
           rebounds:4,
-          assits: 7,
+          assists: 7,
           steals: 22,
           blocks: 15,
           slam_dunks: 10
@@ -86,7 +86,7 @@ def game_hash()
           shoe: 14,
           points: 24,
           rebounds:12,
-          assits: 12,
+          assists: 12,
           steals: 4,
           blocks: 5,
           slam_dunks: 5
@@ -96,7 +96,7 @@ def game_hash()
           shoe: 15,
           points: 33,
           rebounds:3,
-          assits: 2,
+          assists: 2,
           steals: 1,
           blocks: 1,
           slam_dunks: 0
@@ -106,7 +106,7 @@ def game_hash()
           shoe: 15,
           points: 6,
           rebounds:12,
-          assits: 12,
+          assists: 12,
           steals: 7,
           blocks: 5,
           slam_dunks: 12
