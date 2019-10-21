@@ -186,6 +186,7 @@ def big_shoe_rebounds()
   game_hash.each do |key, value|
     value[:players].each do |player|
       if player[:shoe] > max_size
+         max_size = player[:shoe]
          rebounds = player[:player_name]
       end
     end
