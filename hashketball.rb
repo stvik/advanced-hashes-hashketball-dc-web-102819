@@ -120,7 +120,7 @@ end
 def num_points_scored(name)
   stats = game_hash
   stats.each do |team, value|
-    puts value
+    puts stats[:home][:colors]
   end
 end
 
