@@ -140,6 +140,7 @@ def team_colors(team_name)
     return stats[:home][:colors]
   elsif stats[:away][:team_name] == team_name
     return stats[:away][:colors]
+  end
   #stats.each do |team, value|
   #  if team[:team_name] == team_name
   #    return team[:colors]
