@@ -135,6 +135,7 @@ def shoe_size(name)
   stats.each do |key, value|
     value.each do |info, moreinfo|
       puts info
+    end
   end
 end
 
